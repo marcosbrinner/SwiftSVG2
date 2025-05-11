@@ -49,6 +49,8 @@ public extension NSBezierPath {
                 case .closePath:
                     path.closeSubpath()
                 }
+                default:
+                    break
             }
             return path
         }
